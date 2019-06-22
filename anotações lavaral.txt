@@ -1,0 +1,15 @@
+primiro configurar rotas em routes=>web.php
+2 criar uma blade em resourse=> criar uma blade.php
+3 criar um controller => php artisan controller nome do controller
+4 criar uma rota em web.php =>depois da virgula['uses'=>'nome da
+classe que eu criei@=>metodo que eu crei dentro do controller']
+5 ir no controller que foi criado definir uma função para ser
+chamada;
+dd()= é a mesma coisa de um var_dump do php estruturado;
+para retornar algo especifico usar dd($nome da variavel[o que eu estou
+passando dentro do name])se eu quiser todos os dados usar dd($variavel->all());
+6 Dentro do controler que eu criei posso especificar uma view que vai
+redirecionar o usuario para outra pagina;
+7 essa pagina será criada em resouce=>views
+8 para usaro sistema de template .blade.php criar um diretorio rais
+com a teg @yield('o que será extendido')
