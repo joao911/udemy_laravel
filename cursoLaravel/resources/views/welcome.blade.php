@@ -95,7 +95,7 @@
                     <input type="text" name="nome" placeholder="nome  Post">
                     <button>enviar</button>
                 </form>
-                <form action="contato" method="post">
+                <form action="contato" method="put">
                     {{csrf_field()}}
                     <input type="hidden" name="_method" value="put">
                     <input type="text" name="nome" placeholder="nome/put">
